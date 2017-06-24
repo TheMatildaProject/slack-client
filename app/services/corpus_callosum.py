@@ -10,7 +10,8 @@ class CorpusCallosum(object):
             "action": "command",
             "parameters": {
                 "text": text,
-                "channel": channel
+                "channel": channel,
+                "token": os.environ['SLACK_TOKEN'],
             },
             "origin": "slack"
         }
