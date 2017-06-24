@@ -19,6 +19,3 @@ if sc.rtm_connect():
                 
 else:
     print ("Connection Failed, invalid token?")
-
-if __name__ == "__main__":
-    app.run(debug=True)
