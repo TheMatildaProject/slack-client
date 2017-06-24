@@ -1,0 +1,4 @@
+.cheatsheet
+*.pyc
+__pycache__
+.env
